@@ -1,0 +1,93 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #f5f3f3;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  font-size: 3rem;
+}
+h4 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+header {
+  padding: 20px 0 0 0;
+  background: white;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+#encabezado {
+  margin: 30px 0;
+}
+
+.submenu {
+  position: relative;
+}
+
+#img-carrito {
+  cursor: pointer;
+}
+
+.card {
+  text-align: center;
+  border: 1px solid #e1e1e1;
+  background: white;
+}
+.info-card {
+  padding: 10px 20px;
+}
+
+.info-card p,
+.card h4 {
+  margin-bottom: 5px;
+}
+
+.info-card .precio {
+  text-decoration: line-through;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.info-card .precio span {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+#logo {
+  color: crimson;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+#lista-producto .row {
+  margin-bottom: 20px;
+}
+
+.agregar-carrito {
+  margin: 10px 0;
+}
+
+.submenu #carrito {
+  display: none;
+}
+
+.submenu:hover #carrito {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  z-index: 1;
+  background-color: white;
+  padding: 20px;
+  min-height: 400px;
+  min-width: 300px;
+}
